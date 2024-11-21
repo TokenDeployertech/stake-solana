@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-phantom": "^0.9.24",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.5"
+  },
+  "name": "stake-solana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TokenDeployertech",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokenDeployertech/stake-solana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TokenDeployertech/stake-solana/issues"
+  },
+  "homepage": "https://github.com/TokenDeployertech/stake-solana#readme",
+  "description": ""
+}
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
